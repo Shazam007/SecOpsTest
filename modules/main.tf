@@ -14,6 +14,9 @@ resource "google_compute_instance" "vm_instance" {
 
     access_config {
       // Ephemeral public IP
+      sdadsa
+      sdadsaasd
+      sadsd
     }
   }
 }
