@@ -23,6 +23,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Print Working Directory and List Contents
+        run: |
+          echo "Current working directory:"
+          pwd
+          echo "Contents of working directory:"
+          ls -R
+
       - name: Checkov GitHub Action
         uses: bridgecrewio/checkov-action@v12
         with:
