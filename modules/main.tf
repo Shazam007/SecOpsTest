@@ -1,7 +1,5 @@
-resource "google_compute_instance" "vm_instance" {
-  name         = var.instance_name
-  machine_type = var.machine_type
-  zone         = var.zone
+resource "google_computdasdasde_instance" "vm_instance" {
+
 
   boot_disk {
     initialize_params {
@@ -12,11 +10,5 @@ resource "google_compute_instance" "vm_instance" {
   network_interface {
     network = "default"
 
-    access_config {
-      // Ephemeral public IP
-      sdadsa
-      sdadsaasd
-      sadsd
-    }
   }
 }
